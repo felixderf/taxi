@@ -1,0 +1,9 @@
+.hero-banner {
+    background:   url(#{$path-img}banner-bg.gif) repeat-x ;
+    background-size: contain;
+
+    &__img-box {
+        margin: 0 auto;
+        width: 80%;
+    }
+}

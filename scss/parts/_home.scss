@@ -1,0 +1,48 @@
+.home {
+    flex: 1 0 auto;
+
+    &__title {
+        @media only screen
+        and (max-width: 767px) {
+            padding-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        @media only screen
+        and (min-width: 768px)
+        and (max-width: 1223px) {
+            padding-top: 50px;
+            margin-bottom: 25px;
+        }
+
+        @media only screen
+        and (min-width: 1224px) {
+            padding-top: 50px;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__text {
+        margin-bottom: 5px;
+    }
+
+    &__list {
+
+    }
+}
+
+// @media only screen
+// and (max-width: 767px) {
+   
+// }
+
+// @media only screen
+// and (min-width: 768px)
+// and (max-width: 1223px) {
+   
+// }
+
+// @media only screen
+// and (min-width: 1224px) {
+    
+// }
